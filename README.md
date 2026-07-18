@@ -4,11 +4,11 @@ Aplikasi pembelajaran musik untuk anak-anak, dibangun menggunakan Flutter dan Fi
 
 ## Download
 
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/FetraAbdulMalik/nada_cilik/blob/main/nada-cilik.apk?raw=true)
 
+Unduh APK terbaru langsung dengan mengklik tombol di atas atau melalui berkas [nada-cilik.apk](https://github.com/FetraAbdulMalik/nada_cilik/blob/main/nada-cilik.apk?raw=true), lalu instal di perangkat Android Anda (pastikan opsi "Install from unknown sources" sudah diaktifkan di pengaturan perangkat).
 
-Unduh APK terbaru langsung dari [halaman Releases], lalu instal di perangkat Android Anda (pastikan opsi "Install from unknown sources" sudah diaktifkan di pengaturan perangkat).
-
-> **Catatan:** Link download di atas hanya akan berfungsi setelah file APK diunggah ke bagian [Releases] repo ini dengan nama file `app-release.apk`.
+> **Catatan:** File APK `nada-cilik.apk` sudah tersedia di halaman utama repositori ini dan dapat langsung diunduh secara instan.
 
 ## Tentang Aplikasi
 
@@ -71,45 +71,45 @@ lib/
 
 1. Clone repository ini
 
-```
-git clone https://github.com/dheamuhamadfaisal/nadacilik.git
-cd nadacilik
+```bash
+git clone https://github.com/FetraAbdulMalik/nada_cilik.git
+cd nada_cilik
 ```
 
 2. Install dependencies
 
-```
+```bash
 flutter pub get
 ```
 
 3. Hubungkan ke Firebase (jika belum terhubung)
 
-```
+```bash
 dart pub global activate flutterfire_cli
 flutterfire configure
 ```
 
 4. Jalankan aplikasi
 
-```
+```bash
 flutter run -d chrome
 ```
 
 atau untuk Android:
 
-```
+```bash
 flutter run
 ```
 
 ### Build APK
 
-```
+```bash
 flutter clean
 flutter pub get
 flutter build apk --release
 ```
 
-File APK akan tersedia di `build/app/outputs/flutter-apk/app-release.apk` — file inilah yang dibagikan ke dosen/penguji untuk diinstal langsung di perangkat Android tanpa perlu menjalankan source code, atau bisa diunduh langsung melalui tautan ini: **[Download nada-cilik.apk](https://github.com/FetraAbdulMalik/nada_cilik/blob/main/nada-cilik.apk?raw=true)**.
+File APK akan tersedia di `build/app/outputs/flutter-apk/app-release.apk` — file inilah yang dibagikan ke dosen/penguji untuk diinstal langsung di perangkat Android tanpa perlu menjalankan source code, atau bisa diunduh langsung lewat repositori ini di berkas [nada-cilik.apk](https://github.com/FetraAbdulMalik/nada_cilik/blob/main/nada-cilik.apk?raw=true).
 
 ## Struktur Database (Firestore)
 
@@ -156,19 +156,19 @@ Berikut beberapa kendala utama yang ditemukan selama pengembangan beserta solusi
 
 | Login | Registrasi | Edit Profil |
 | --- | --- | --- |
-| [![Login](https://github.com/dheamuhamadfaisal/nadacilik/raw/main/screenshots/Login.jpg)](/dheamuhamadfaisal/nadacilik/blob/main/screenshots/Login.jpg) | [![Registrasi](https://github.com/dheamuhamadfaisal/nadacilik/raw/main/screenshots/Registrasi.jpg)](/dheamuhamadfaisal/nadacilik/blob/main/screenshots/Registrasi.jpg) | [![Edit Profil](https://github.com/dheamuhamadfaisal/nadacilik/raw/main/screenshots/Edit_Profil.jpg)](/dheamuhamadfaisal/nadacilik/blob/main/screenshots/Edit_Profil.jpg) |
+| [![Login](https://github.com/FetraAbdulMalik/nada_cilik/raw/main/screenshots/Login.jpg)](/FetraAbdulMalik/nada_cilik/blob/main/screenshots/Login.jpg) | [![Registrasi](https://github.com/FetraAbdulMalik/nada_cilik/raw/main/screenshots/Registrasi.jpg)](/FetraAbdulMalik/nada_cilik/blob/main/screenshots/Registrasi.jpg) | [![Edit Profil](https://github.com/FetraAbdulMalik/nada_cilik/raw/main/screenshots/Edit_Profil.jpg)](/FetraAbdulMalik/nada_cilik/blob/main/screenshots/Edit_Profil.jpg) |
 
 | Favorit | Pengaturan Tidur | Edukasi |
 | --- | --- | --- |
-| [![Favorit](https://github.com/dheamuhamadfaisal/nadacilik/raw/main/screenshots/Favorit.jpg)](/dheamuhamadfaisal/nadacilik/blob/main/screenshots/Favorit.jpg) | [![Pengaturan Tidur](https://github.com/dheamuhamadfaisal/nadacilik/raw/main/screenshots/Pengaturan_Tidur.jpg)](/dheamuhamadfaisal/nadacilik/blob/main/screenshots/Pengaturan_Tidur.jpg) | [![Edukasi](https://github.com/dheamuhamadfaisal/nadacilik/raw/main/screenshots/Edukasi.jpg)](/dheamuhamadfaisal/nadacilik/blob/main/screenshots/Edukasi.jpg) |
+| [![Favorit](https://github.com/FetraAbdulMalik/nada_cilik/raw/main/screenshots/Favorit.jpg)](/FetraAbdulMalik/nada_cilik/blob/main/screenshots/Favorit.jpg) | [![Pengaturan Tidur](https://github.com/FetraAbdulMalik/nada_cilik/raw/main/screenshots/Pengaturan_Tidur.jpg)](/FetraAbdulMalik/nada_cilik/blob/main/screenshots/Pengaturan_Tidur.jpg) | [![Edukasi](https://github.com/FetraAbdulMalik/nada_cilik/raw/main/screenshots/Edukasi.jpg)](/FetraAbdulMalik/nada_cilik/blob/main/screenshots/Edukasi.jpg) |
 
 | Musik | Player Edukasi | Player Musik |
 | --- | --- | --- |
-| [![Musik](https://github.com/dheamuhamadfaisal/nadacilik/raw/main/screenshots/Musik.jpg)](/dheamuhamadfaisal/nadacilik/blob/main/screenshots/Musik.jpg) | [![Player Edukasi](https://github.com/dheamuhamadfaisal/nadacilik/raw/main/screenshots/Play_Edukasi.jpg)](/dheamuhamadfaisal/nadacilik/blob/main/screenshots/Play_Edukasi.jpg) | [![Player Musik](https://github.com/dheamuhamadfaisal/nadacilik/raw/main/screenshots/Play_Musik.jpg)](/dheamuhamadfaisal/nadacilik/blob/main/screenshots/Play_Musik.jpg) |
+| [![Musik](https://github.com/FetraAbdulMalik/nada_cilik/raw/main/screenshots/Musik.jpg)](/FetraAbdulMalik/nada_cilik/blob/main/screenshots/Musik.jpg) | [![Player Edukasi](https://github.com/FetraAbdulMalik/nada_cilik/raw/main/screenshots/Play_Edukasi.jpg)](/FetraAbdulMalik/nada_cilik/blob/main/screenshots/Play_Edukasi.jpg) | [![Player Musik](https://github.com/FetraAbdulMalik/nada_cilik/raw/main/screenshots/Play_Musik.jpg)](/FetraAbdulMalik/nada_cilik/blob/main/screenshots/Play_Musik.jpg) |
 
 | Beranda |
 | --- |
-| [![Beranda](https://github.com/dheamuhamadfaisal/nadacilik/raw/main/screenshots/Beranda.jpg)](/dheamuhamadfaisal/nadacilik/blob/main/screenshots/Beranda.jpg) |
+| [![Beranda](https://github.com/FetraAbdulMalik/nada_cilik/raw/main/screenshots/Beranda.jpg)](/FetraAbdulMalik/nada_cilik/blob/main/screenshots/Beranda.jpg) |
 
 ## Pengembang
 
