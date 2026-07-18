@@ -4,11 +4,11 @@ Aplikasi pembelajaran musik untuk anak-anak, dibangun menggunakan Flutter dan Fi
 
 ## Download
 
-[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/dheamuhamadfaisal/nadacilik/releases/latest/download/app-release.apk)
 
-Unduh APK terbaru langsung dari [halaman Releases](https://github.com/dheamuhamadfaisal/nadacilik/releases/latest), lalu instal di perangkat Android Anda (pastikan opsi "Install from unknown sources" sudah diaktifkan di pengaturan perangkat).
 
-> **Catatan:** Link download di atas hanya akan berfungsi setelah file APK diunggah ke bagian [Releases](https://github.com/dheamuhamadfaisal/nadacilik/releases) repo ini dengan nama file `app-release.apk`.
+Unduh APK terbaru langsung dari [halaman Releases], lalu instal di perangkat Android Anda (pastikan opsi "Install from unknown sources" sudah diaktifkan di pengaturan perangkat).
+
+> **Catatan:** Link download di atas hanya akan berfungsi setelah file APK diunggah ke bagian [Releases] repo ini dengan nama file `app-release.apk`.
 
 ## Tentang Aplikasi
 
