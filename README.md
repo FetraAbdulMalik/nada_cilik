@@ -109,7 +109,7 @@ flutter pub get
 flutter build apk --release
 ```
 
-File APK akan tersedia di `build/app/outputs/flutter-apk/app-release.apk` — file inilah yang dibagikan ke dosen/penguji untuk diinstal langsung di perangkat Android tanpa perlu menjalankan source code, atau bisa diunggah ke bagian [Releases](https://github.com/dheamuhamadfaisal/nadacilik/releases) repo ini agar bisa diunduh publik.
+File APK akan tersedia di `build/app/outputs/flutter-apk/app-release.apk` — file inilah yang dibagikan ke dosen/penguji untuk diinstal langsung di perangkat Android tanpa perlu menjalankan source code, atau bisa diunduh langsung melalui tautan ini: **[Download nada-cilik.apk](https://github.com/FetraAbdulMalik/nada_cilik/blob/main/nada-cilik.apk?raw=true)**.
 
 ## Struktur Database (Firestore)
 
